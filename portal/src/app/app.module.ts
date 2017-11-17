@@ -1,34 +1,40 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {HttpClientModule} from '@angular/common/http';
+import {ReactiveFormsModule} from '@angular/forms';
 
-import { AppComponent } from './app.component';
+import {AppComponent} from './app.component';
+import {LoginComponent} from './login/login.component';
+import {AppRoutingModule} from './app-routing.module';
+import {AdminModule} from './admin/admin.module';
+import {AuthGuardService} from './auth-guard.service';
+import {AuthService} from './auth.service';
+import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
+import {RegisterComponent} from './register/register.component';
+
 import { PortalComponent } from './portal/portal.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 
-const appRoutes :Routes = [
-   { path: 'portal', component: PortalComponent},
-   { path: 'about', component: AboutComponent },
-   { path: 'contact', component: ContactComponent }
-];
-
-
 @NgModule({
   declarations: [
     AppComponent,
+    LoginComponent,
+    PageNotFoundComponent,
+    RegisterComponent,
     PortalComponent,
     AboutComponent,
     ContactComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(
-       appRoutes,
-       { enableTracing: true } // <-- debugging purposes only
-     )
+    HttpClientModule,
+    ReactiveFormsModule,
+    AdminModule,
+    AppRoutingModule
   ],
-  providers: [],
+  providers: [AuthGuardService, AuthService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
