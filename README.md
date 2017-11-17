@@ -13,13 +13,9 @@
 
 <h3>Installation</h3>
 <hr>
-```
-cd portal
-```
+<pre>cd portal</pre>
 -- then
-```
-npm install
-```
+<pre>npm install</pre>
 
 
 # laravel-api
