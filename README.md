@@ -1,3 +1,30 @@
+# Angular Portal Application
+![alt text](https://github.com/megmarcaida/PortalApp/blob/master/portal/src/assets/img/portal.png)
+
+
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.4.
+
+### Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+### Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+# angular-laravel
+- First clone via `git bash` or download.
+- Go to your root folder and run this command
+```
+npm install
+```
+- Run your `angular` app by this command
+```
+ng serve -o
+```
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img width="150"src="https://laravel.com/laravel.png"></a></p>
 
 <p align="center">
@@ -6,17 +33,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
-
-
-# PortalApp
-![alt text](https://github.com/megmarcaida/PortalApp/blob/master/portal/src/assets/img/portal.png)
-
-<h3>Installation</h3>
-<hr>
-<pre>cd portal</pre>
-- then type 
-<pre>npm install</pre>
-- to install angular
 
 # laravel-api
 - Don't **forget** to start `mysql` server, if you use `mysql` or database will not connect.
