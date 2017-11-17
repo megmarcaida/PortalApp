@@ -14,9 +14,9 @@
 <h3>Installation</h3>
 <hr>
 <pre>cd portal</pre>
-- then
+- then type 
 <pre>npm install</pre>
-
+- to install angular
 
 # laravel-api
 - Don't **forget** to start `mysql` server, if you use `mysql` or database will not connect.
