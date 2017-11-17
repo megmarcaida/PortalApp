@@ -14,7 +14,7 @@
 <h3>Installation</h3>
 <hr>
 <pre>cd portal</pre>
--- then
+- then
 <pre>npm install</pre>
 
 
