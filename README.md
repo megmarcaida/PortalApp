@@ -18,6 +18,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - First clone via `git bash` or download.
 - Go to your root folder and run this command
 ```
+cd portal
+```
+- then run
+```
 npm install
 ```
 - Run your `angular` app by this command
