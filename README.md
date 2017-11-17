@@ -13,14 +13,22 @@
 
 <h3>Installation</h3>
 <hr>
-<pre>$cd portal && npm install</pre>
-<pre>$cd laravel-api && composer install</pre>
+```
+cd portal
+```
+-- then
+```
+npm install
+```
+
 
 # laravel-api
 - Don't **forget** to start `mysql` server, if you use `mysql` or database will not connect.
 - First clone via `git bash` or download it. It is a RESTful api.
 - Run this command in your terminal
-
+```
+cd laravel-api
+```
 ```
 composer install
 ```
