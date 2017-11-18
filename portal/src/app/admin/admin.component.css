@@ -2,3 +2,4 @@ ul > .nav-item {
     margin-left: 5px;
     min-height: 20px;
   }
+ul > .nav-item > .logout{ cursor: pointer;}
