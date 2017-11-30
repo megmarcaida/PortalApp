@@ -1,3 +1,5 @@
+<app-header></app-header>
+
 <div class="container margin_top">
   <form [formGroup]="registerForm" (ngSubmit)="register()" class="form-signin" novalidate
         [class.was-validated]="registerForm.invalid && (registerForm.dirty || registerForm.touched)">

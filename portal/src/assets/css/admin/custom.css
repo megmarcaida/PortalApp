@@ -1,0 +1,15 @@
+/* your styles go here */
+html{
+    width: 100%  !important;
+    height: 100%  !important;
+    margin: 0px  !important;
+    padding: 0px  !important;
+    overflow-x: hidden !important;
+}
+
+
+
+.container-fluid{
+  padding-left: 0px !important;
+  padding-right:0px !important;
+}

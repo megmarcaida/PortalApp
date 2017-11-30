@@ -3,6 +3,7 @@ import {RouterModule, Routes} from '@angular/router';
 import {AdminComponent} from './admin.component';
 import {AdminDashboardComponent} from './admin-dashboard/admin-dashboard.component';
 import {AuthGuardService} from '../auth-guard.service';
+import {SchoolYearComponent} from './school-year/school-year.component';
 
 const adminRoutes: Routes = [
   {
@@ -14,7 +15,8 @@ const adminRoutes: Routes = [
         path: '',
         canActivateChild: [AuthGuardService],
         children: [
-          {path: '', component: AdminDashboardComponent}
+          {path: '', component: AdminDashboardComponent},
+          {path:'school-year', component: SchoolYearComponent}
         ],
       }
     ]
